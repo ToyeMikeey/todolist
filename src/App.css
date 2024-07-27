@@ -1,0 +1,89 @@
+body {
+  background-color: #f0f4f8;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.con {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 400px;
+}
+
+.enter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#listEntry {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  outline: none;
+}
+
+#listEntry:focus {
+  border-color: #0056b3;
+}
+
+#bttn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#bttn:hover {
+  background-color: #0056b3;
+}
+
+.list-display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.check-item {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.list-display h1 {
+  flex-grow: 1;
+  margin: 0;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.close-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.close-button:hover {
+  background-color: #c0392b;
+}
